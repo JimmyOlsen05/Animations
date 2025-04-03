@@ -23,8 +23,8 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/https://github.com/JimmyOlsen05/Animations' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/https://github.com/JimmyOlsen05/Animations/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/Animations' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/Animations/' : '',
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
